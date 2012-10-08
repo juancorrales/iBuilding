@@ -1,6 +1,7 @@
 Proyecto iBuilding
 ==================
 
+
 ## 1. Requisitos funcionales
 
 <table>
@@ -147,3 +148,7 @@ Proyecto iBuilding
 - (1): Llamada a procedimientos, Parámetros (transferencia de datos)
 - (2): Árbitro, Planificación
 - (3): Árbitro, Seguridad: Autentificación
+
+---
+
+###### Trabajo en conjunto de todo el grupo
