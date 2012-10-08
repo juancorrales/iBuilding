@@ -28,6 +28,10 @@ Proyecto iBuilding
 
 ## 3. Diagrama de componentes
 
+![alt text][diagram]
+
+[diagram]: https://github.com/lhpaul/iBuilding/raw/master/img/package_diagram.png "Diagrama de componentes"
+
 **Estilos arquitectónicos**
 - Cliente Servidor
 - 3 Capas (Dispositivo, Servidor, Cliente)
