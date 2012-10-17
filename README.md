@@ -68,7 +68,7 @@ Proyecto iBuilding
 </table>
 
 
-## 2.1 Requisitos no funcionales
+## 2.0 Requisitos no funcionales
 
 <table>
 	<thead>
