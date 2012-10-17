@@ -148,6 +148,7 @@ Proyecto iBuilding
 - (1): Llamada a procedimientos, Parámetros (transferencia de datos)
 - (2): Árbitro, Planificación
 - (3): Árbitro, Seguridad: Autentificación
+- (4): Acceso a datos (disponibilidad persistente)
 
 ---
 
