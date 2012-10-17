@@ -152,4 +152,12 @@ Proyecto iBuilding
 
 ---
 
+## 3. Diagrama de Deployment
+
+
+![alt text][diagram]
+
+[diagram]: https://github.com/lhpaul/iBuilding/raw/master/img/DiagramaDeployment.png "Diagrama de Deployment "
+
+
 ###### Trabajo en conjunto de todo el grupo
