@@ -68,7 +68,7 @@ Proyecto iBuilding
 </table>
 
 
-## 2. Requisitos no funcionales
+## 2.1 Requisitos no funcionales
 
 <table>
 	<thead>
@@ -143,6 +143,11 @@ Proyecto iBuilding
 	</tbody>
 </table>
 
+## 2.1 Árbol de Utilidad
+
+![alt_text][diagram0]
+
+[diagram0]: https://github.com/lhpaul/iBuilding/raw/master/img/DiagramaUtilidad.png "Diagrama de Utilidad"
 
 ## 3. Diagrama de componentes
 
