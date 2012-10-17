@@ -14,61 +14,55 @@ Proyecto iBuilding
 	<tbody>
 		<tr>
 			<td>R01</td>
-			<td>El sistema debe permitir controlar los dispositivos de manera remota.</td>
+			<td>Los dispositivos deben alojar un servidor Web.</td>
 		</tr>
-			<tr>
+		<tr>
 			<td>R02</td>
-			<td>Cada dispositivo debe poder responder con una lista que contenga las URL hacia sus funcionalidades.</td>
-		</tr>
-		</tr>
-			<tr>
-			<td>R03</td>
-			<td>Los dispositivos deben poder publicar su información a un servidor, de forma automática cada cierto intervalo de tiempo (dependiendo del dispositivo), y en diferentes formatos.</td>
-		</tr>
-		</tr>
-			<tr>
-			<td>R04</td>
 			<td>El sistema debe permitir comunicarse con un dispositivo en específico mediante un identificador único.</td>
 		</tr>
+		<tr>
+			<td>R03</td>
+			<td>El sistema debe permitir controlar los dispositivos mediante una interfaz web.</td>
 		</tr>
-			<tr>
+		<tr>
+			<td>R04</td>
+			<td>Cada dispositivo debe poder responder con una lista que contenga las URL hacia sus funcionalidades.</td>
+		</tr>
+		<tr>
 			<td>R05</td>
 			<td>Los dispositivos deben alojar un servidor Web.</td>
 		</tr>
-		</tr>
-			<tr>
+		<tr>
 			<td>R06</td>
 			<td>Deben existir roles de usuarios: visitante, administrador y supervisor.</td>
 		</tr>
-		</tr>
-			<tr>
+		<tr>
 			<td>R07</td>
-			<td>Un usuario con rol de visitante sólo deberá poder ver la información de la sala.</td>
+			<td>Todos usuarios deben poder ver la agenda de la sala mediante el dispositivo panel o algún cliente Web conectado a Internet.</td>
 		</tr>
-		</tr>
-			<tr>
+		<tr>
 			<td>R08</td>
-			<td>Un usuario con rol de administrador deberá poder ver la información de la sala.</td>
+			<td>Los usuarios con rol de administrador y/o supervisor deben poder configurar la agenda de la sala mediante el dispositivo panel o algún cliente Web conectado a Internet.</td>
 		</tr>
-		</tr>
-			<tr>
+		<tr>
 			<td>R09</td>
-			<td>Un usuario con rol de administrador deberá poder configurar la agenda de la sala.</td>
+			<td>Los usuarios con rol de supervisor deben poder configurar los dispositivos mediante el dispositivo panel o algún cliente Web conectado a Internet.</td>
 		</tr>
-		</tr>
-			<tr>
+		<tr>
 			<td>R10</td>
-			<td>Un usuario con rol de supervisor deberá poder ver la información de la sala.</td>
+			<td>El sistema debe permitir configurar y administrar los permisos de usuario.</td>
 		</tr>
-		</tr>
-			<tr>
+		<tr>
 			<td>R11</td>
-			<td>Un usuario con rol de supervisor deberá poder configurar la agenda de la sala.</td>
+			<td>El sistema debe permitir configurar y administrar la BD.</td>
 		</tr>
-		</tr>
-			<tr>
+		<tr>
 			<td>R12</td>
-			<td>Un usuario con rol de supervisor deberá poder configurar los dispositivos que se encuentran en la sala.</td>
+			<td>El sistema debe permitir la configuracion y administracion de la simulación de dispositivos.</td>
+		</tr>
+		<tr>
+			<td>R13</td>
+			<td>El sistema debe permitir monitoreo y logging de su funcionamiento.</td>
 		</tr>
 	</tbody>
 </table>
@@ -112,9 +106,9 @@ Proyecto iBuilding
 		</tr>
 		<tr>
 			<td>RN5</td>
-			<td>El sistema debe exigir autenticación de usuarios, con protocolo de seguridad SSL.</td>
-			<td>Seguridad</td>
-			<td>Se debe asegurar que los dispositivos no sean modificados por usuarios desconocidos.</td>
+			<td>El sistema posee una lista de dispositivos conocidos, con los cuales intercambia información.</td>
+			<td>Testeabilidad</td>
+			<td>Se considera como porcentaje razonable para el desarrollo del sistema.</td>
 		</tr>
 		<tr>
 			<td>RN6</td>
@@ -124,9 +118,27 @@ Proyecto iBuilding
 		</tr>
 		<tr>
 			<td>RN7</td>
+			<td>El sistema debe exigir autenticación de usuarios, con protocolo de seguridad SSL.</td>
+			<td>Seguridad</td>
+			<td>Se debe asegurar que los dispositivos no sean modificados por usuarios desconocidos.</td>
+		</tr>	
+        <tr>
+			<td>RN8</td>
+			<td>El sistema debe permitir ser configurado por el administrador.</td>
+			<td>Configurabilidad</td>
+			<td>Es necesario para poder configurar el sistema y probar</td>
+		</tr>
+        <tr>
+			<td>RN9</td>
 			<td>El tiempo de recuperación no debe ser mayor a 2 horas.</td>
 			<td>Disponibilidad</td>
 			<td>Se considera como tiempo razonable para no atentar contra los usuarios, ni el funcionamiento de los demás dispositivos.</td>
+		</tr>
+        <tr>
+			<td>RN10</td>
+			<td>El sistema debe permitir mantenibilidad por parte de usuarios administradores, permitiendo agregar o modificar datos de configuración al sistema.</td>
+			<td>Mantenibilidad</td>
+			<td>Necesario para los cambio futuros del sistema.</td>
 		</tr>
 	</tbody>
 </table>
