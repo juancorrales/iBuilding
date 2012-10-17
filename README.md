@@ -137,7 +137,7 @@ Proyecto iBuilding
 
 ![alt text][diagram]
 
-[diagram]: https://github.com/lhpaul/iBuilding/raw/master/img/package_diagram.png "Diagrama de componentesen "
+[diagram]: https://github.com/lhpaul/iBuilding/raw/master/img/package_diagram.png "Diagrama de componentes"
 
 **Estilos arquitectónicos**
 - Cliente Servidor
@@ -152,12 +152,12 @@ Proyecto iBuilding
 
 ---
 
-## 3. Diagrama de Deployment
+## 4. Diagrama de Deployment
 
 
 ![alt text][diagram]
 
-[diagram]: https://github.com/lhpaul/iBuilding/raw/master/img/DiagramaDeployment.png "Diagrama de Deployment "
+[diagram]: https://github.com/lhpaul/iBuilding/raw/master/img/DiagramaDeployment.png "Diagrama de Deployment"
 
 
 ###### Trabajo en conjunto de todo el grupo
