@@ -176,5 +176,23 @@ Proyecto iBuilding
 
 [diagram2]: https://github.com/lhpaul/iBuilding/raw/master/img/DiagramaDeployment.png "Diagrama de Deployment"
 
+## 5. Identificación de Riesgos, Puntos Sensibles y Trade‐Offs
+
+**Identificación de Riesgos**
+Al momento de tomar las decisiones arquitectónicas, se generan distintas problemáticas que pueden generar conflictos. Por un lado se genera un riesgo al generar un componente común con su respectiva interfaz para todos los dispositivos,  considerando la diversidad de estos, y los distintos niveles de complejidad hay decidir abstraerse por una interfaz, sin embargo, ¿Con que nivel de profundidad se debe generar?  
+Por otro lado está el tema de los componentes que podrían verse afectado al momento de escalar. El servidor debe ser capaz de procesar gran cantidad de información por ende el “Controlador dispositivo” y su respectivo conector con la API de data-in deben ser identificados como un factor de riesgo claro.  En este caso, la capacidad de leer información, va verse restringida por el ancho de banda y por la cantidad máxima de request, sin embargo hay que tener en cuenta posibles opciones de replicar esta lógica de modo de procesar información simultánea.
+
+**Puntos Sensibles**
+- Escalabilidad: capacidad de aumentar los request sin que el servidor colapse y pierda datos.
+- Flexibilidad: Elegir una interfaz común para todos los dispositivos,  que no sea necesario hacer cambios cada vez que se quiera agregar un tipo de dispositivo nuevo.
+- Seguridad: Los datos deben ser de los dispositivos inscritos y no de dispositivos ajenos al sistema. Por otro lado el control de los dispositivos debe ser restringido, es de suma importancia que los dispositivos no sean manipulados externamente sin autorización. 
+
+**TradeOffs** 
+La complejidad se va a ver afectada claramente con las decisiones tomadas tanto en escalabilidad, flexibilidad y seguridad. Por un lado, en caso que se desee escalar ocupando replicaciones, claramente va a generarse mayor complejidad debido a tener que coordinar distintos componentes en paralelo que procesan información y modifican la base de datos de manera concurrente. 
+En el caso de la flexibilidad también hay un trade-off con complejidad ya que a medida que aumento la flexibilidad de los dispositivos, más complejo va a ser mi componente dispositivo. 
+El aumentar la seguridad va a afectar por un lado la escalabilidad, debido a que protocolos de seguridad más complejos involucran una sobrecargar mayor en el servidor y a su vez un aumento de complejidad.  
+
+ 
+
 
 ###### Trabajo en conjunto de todo el grupo
